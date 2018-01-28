@@ -1,0 +1,21 @@
+section{
+    background-color: aqua;
+}
+
+.box-red,
+.box-gold{
+    width: 100px;
+    height: 100px;
+}
+
+.box-red{
+    background-color: red;
+    float: left;
+}
+.box-gold{
+    background-color: gold;
+    float: right;
+}
+.box-inv{
+    clear: both;
+}
