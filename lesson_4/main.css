@@ -1,71 +1,38 @@
- section{
-    background-color: #000;
-    margin: 100px auto 0;
-    width: 80%;
-    height: 300px;
-    position: relative;
-}
-
-.box{
-    height: 200px;
-    width: 200px;
-    background: url('main.jpg') center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-.main{
-    color: white;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.box2{
-    width: 200px;
-    height: 200px;
-    background-color: gold;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
- *{
+*{
     box-sizing: border-box;
 }
 
-.start{
-    height: 100vh;
-    background-size: cover;
-    background: url('1.jpg') center;
-    padding-top: 250px;
-    position: relative;
-    z-index: 0;
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    height: 80px;
+    line-height: 80px;
 }
- 
-.overlay{
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, .5);
-    position: absolute;
+.clearFix{
+    clear: both;
+}
+
+header{
+    position: fixed;
     top: 0;
     left: 0;
-    z-index: -1;
-}
- 
-.title{
-    font-size: 60px;
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
+    width: 100%;
+    background-color: #000;
+    color: #fff
 }
 
+.logo{
+    float: left;
+}
 .menu{
-    height: 200px;
+    float: right;
+}
+.menu-link{
+    display: inline-block;
 }
 
-h1{
-    font-size: 30px;
-    color: #fff;
-    margin-top: 150px;
-}
+
+/* .start{
+    height: 100vh;
+    background-color: red;
+} */
