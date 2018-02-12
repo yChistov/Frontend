@@ -3,6 +3,7 @@ BODY {
     perspective: 500px;
     -webkit-perspective-origin: center center;
     perspective-origin: center center;
+    background: url(http://subtlepatterns.com/patterns/light_noise_diagonal.png);
 }
 
 .container {
@@ -32,7 +33,7 @@ BODY {
 
 .container:after {
     -webkit-transform: rotatey(90deg);
-    transform: rotatey(90deg);
+    transform: rotateY(90deg);
 }
 
 .side {
